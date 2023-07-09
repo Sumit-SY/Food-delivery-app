@@ -1,0 +1,84 @@
+.navbar-container {
+  display: flex;
+  background-color: red;
+  padding: 15px 10%;
+}
+
+.navbar-logo {
+  height: 30px;
+  width: auto;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.search-bar {
+  width: 650px;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  grid-template-columns: 30px 160px 30px 10px 30px 1fr;
+  vertical-align: middle;
+}
+.location-container {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.location-picture {
+  width: 100%;
+  object-fit: cover;
+}
+
+.location {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  margin-left: 6px;
+  margin-top: 14px;
+}
+.arrow-container {
+  margin-top: 16px;
+  margin-left: 50px;
+}
+
+.arrow-picture {
+  width: 60%;
+  object-fit: cover;
+}
+.vertical-line {
+  height: 58%;
+  border-left: 1.5px solid white;
+  margin-top: 11px;
+}
+.search-icon-container {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+
+.search-icon-picture {
+  width: 38%;
+  object-fit: cover;
+}
+
+.search-text {
+  font-size: 15px;
+  color: rgb(243, 239, 239);
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.login {
+  position: absolute;
+  margin-top: 1%;
+  right: 23%;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+}
+.signup {
+  position: absolute;
+  margin-top: 1%;
+  right: 15%;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+}
